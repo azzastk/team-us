@@ -1,0 +1,113 @@
+{
+  "app_title": "Đánh Giá Tiềm Năng NST — Team US",
+  "app_subtitle": "Chấm điểm theo tín hiệu hoạt động LIVE",
+  "teams": {
+    "US": {
+      "label": "🇺🇸 Team US",
+      "description": "Đánh giá theo tín hiệu hoạt động LIVE (6 câu, tối đa 30 điểm)",
+      "classification_type": "sum_bands",
+      "submit_label": "✅ Gửi kết quả",
+      "progress_goal_text": "nhận kết luận đánh giá",
+      "groups": [
+        {
+          "id": "us_live",
+          "title": "Đánh giá NST — Tín hiệu hoạt động LIVE (tối đa 30 điểm)",
+          "color": "#4a90d9",
+          "questions": [
+            {
+              "id": "Q1",
+              "text": "Trong 7 ngày gần nhất, NST có bao nhiêu phiên LIVE từ 1 giờ?",
+              "labels": {
+                "1": "0",
+                "2": "1–2",
+                "3": "3–4",
+                "4": "5–6",
+                "5": "≥7"
+              }
+            },
+            {
+              "id": "Q2",
+              "text": "Thời lượng trung bình mỗi phiên LIVE là bao nhiêu?",
+              "labels": {
+                "1": "<30 phút",
+                "2": "30–59 phút",
+                "3": "60–89 phút",
+                "4": "90–119 phút",
+                "5": "≥120 phút"
+              }
+            },
+            {
+              "id": "Q3",
+              "text": "Lượt thích",
+              "labels": {
+                "1": "<1000",
+                "2": "1000–5000",
+                "3": "5000–10k",
+                "4": "10k–20k",
+                "5": "Trên 20k"
+              }
+            },
+            {
+              "id": "Q4",
+              "text": "Phòng trưng bày được bao nhiêu Kim cương?",
+              "labels": {
+                "1": "0",
+                "2": "100–200",
+                "3": "200–500",
+                "4": "500–1000",
+                "5": ">1000"
+              }
+            },
+            {
+              "id": "Q5",
+              "text": "Khả năng tham gia và tạo tương tác khi PK như thế nào?",
+              "labels": {
+                "1": "Không PK",
+                "2": "Không PK",
+                "3": "PK không thường xuyên",
+                "4": "PK thường xuyên",
+                "5": "PK tốt, tạo được quà và người xem"
+              }
+            },
+            {
+              "id": "Q6",
+              "text": "Trong 10 phút quan sát LIVE, khả năng tương tác của NST thế nào?",
+              "labels": {
+                "1": "Im lặng, bỏ qua bình luận",
+                "2": "Phản hồi ít",
+                "3": "Phản hồi tương đối đều",
+                "4": "Chủ động dẫn dắt trò chuyện",
+                "5": "Giữ người xem tốt, nhớ người cũ, cảm ơn quà tự nhiên"
+              }
+            }
+          ]
+        }
+      ],
+      "classification": {
+        "bands": [
+          {
+            "min": 0,
+            "max": 20,
+            "label": "Không tiềm năng",
+            "color": "#e74c3c",
+            "desc": "Chưa đạt tiêu chuẩn tối thiểu để đề xuất tuyển dụng ở thời điểm hiện tại."
+          },
+          {
+            "min": 21,
+            "max": 27,
+            "label": "Tiềm năng",
+            "color": "#f5a623",
+            "desc": "Có tố chất, nên tiếp tục theo dõi / đào tạo thêm trước khi ký chính thức."
+          },
+          {
+            "min": 28,
+            "max": 9999,
+            "label": "Tiềm năng cao",
+            "color": "#2ecc71",
+            "desc": "Đáp ứng tốt tiêu chuẩn, ưu tiên đề xuất tuyển dụng ngay."
+          }
+        ]
+      }
+    }
+  }
+}
