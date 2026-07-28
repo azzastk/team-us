@@ -345,7 +345,7 @@ if submit_clicked:
 # --------------------------------------------------------------------------
 if st.session_state.submitted and st.session_state.get("last_result"):
     last = st.session_state.last_result
-    identity_line = f"<b>{tiktok_id}</b> &nbsp;|&nbsp; Agency: {agency} &nbsp;|&nbsp; Người chấm: {evaluator_name}"
+    identity_line = f"<b>{tiktok_id}</b> &nbsp;|&nbsp;"
 
     if last["type"] == "sum_bands":
         matched = last["matched"]
