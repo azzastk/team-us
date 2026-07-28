@@ -302,8 +302,6 @@ if submit_clicked:
             "Thời gian": storage.now_str(),
             "Team": team_id,
             "ID_TikToker": tiktok_id.strip(),
-            "Agency": agency.strip(),
-            "Nguoi_cham": evaluator_name.strip(),
         }
         for group in groups:
             for q in group["questions"]:
