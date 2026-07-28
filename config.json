@@ -87,13 +87,13 @@
         "bands": [
           {
             "min": 0,
-            "max": 20,
+            "max": 15,
             "label": "Không tiềm năng",
             "color": "#e74c3c",
             "desc": "Chưa đạt tiêu chuẩn tối thiểu để đề xuất tuyển dụng ở thời điểm hiện tại."
           },
           {
-            "min": 21,
+            "min": 16,
             "max": 27,
             "label": "Tiềm năng",
             "color": "#f5a623",
