@@ -144,10 +144,7 @@ st.markdown("### 🧾 Thông tin chung")
 info_col1, info_col2, info_col3 = st.columns(3)
 with info_col1:
     tiktok_id = st.text_input("ID / Tên TikToker *", key="tiktok_id", placeholder="vd: @username")
-with info_col2:
-    agency = st.text_input("Agency *", key="agency", placeholder="vd: ABC Media")
-with info_col3:
-    evaluator_name = st.text_input("Người chấm *", key="evaluator_name", placeholder="Tên người trả lời")
+
 
 st.divider()
 
