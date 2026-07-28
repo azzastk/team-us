@@ -288,8 +288,6 @@ if submit_clicked:
     missing_info = [
         label for label, val in [
             ("ID/Tên TikToker", tiktok_id),
-            ("Agency", agency),
-            ("Người chấm", evaluator_name),
         ] if not val.strip()
     ]
     if missing_info:
